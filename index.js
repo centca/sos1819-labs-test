@@ -12,7 +12,9 @@ var port = process.env.PORT || 8080;
 
 app.get("/", (req, res)=>{
     
-   res.sendStatus("Hola papito"); 
+    
+    res.send("Hola");    
+   res.sendStatus(200); 
     
 });
 
